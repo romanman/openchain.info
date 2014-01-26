@@ -6,7 +6,7 @@
 
     <groupId>openchain</groupId>
     <artifactId>openchain</artifactId>
-    <version>0.1.01</version>
+    <version>0.1.02</version>
     <packaging>war</packaging>
 
     <profiles>
