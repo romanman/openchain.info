@@ -15,6 +15,9 @@ derivatives on top of a block chain like Color Coins
 or Mater Coins, betting service, or an escrow service  
 are welcome to contribute to openchain.info.  
 
+## Design
+ * TODO
+
 
 ## Code Standard
 
