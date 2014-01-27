@@ -16,7 +16,13 @@ or Mater Coins, betting service, or an escrow service
 are welcome to contribute to openchain.info.  
 
 
+## Code Standard
 
+Just make your commits look like other code  
+Make comments if you are doing something unique  
+and not trivial.
 
+## Online
 
-
+Once a while I will update the source  
+on openchain.info webiste.  
