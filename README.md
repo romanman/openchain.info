@@ -18,8 +18,8 @@ are welcome to contribute to openchain.info.
 
 ## Code Standard
 
-Just make your commits look like other code  
-Make comments if you are doing something unique  
+ * Just make your commits look like other code  
+ * Make comments if you are doing something unique  
 and not trivial.
 
 ## Online
