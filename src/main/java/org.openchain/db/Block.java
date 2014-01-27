@@ -1,5 +1,7 @@
 package org.openchain.db;
 
+import org.hibernate.annotations.Type;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -11,18 +13,21 @@ import javax.persistence.Table;
  * Created on: 27/01/14 10:23
  */
 @Entity
-@Table(name = "BID")
+@Table(name = "BLOCK")
 public class Block {
 
+    @Column(name = "INDEX")
+    Long   index;
 
     @Id
     @Column(name = "HASH")
     String hash;
 
-    @Column(name = "INDEX")
-    Long   index;
+    @Column(name = "PREV_HASH")
+    String prevHash;
 
-    @Column(name = "HEX_RAW")
+
+    @Column(name = "HEX_RAW", columnDefinition="VARCHAR(65536)")
     String hexRaw;
 
     public String getHash() {
@@ -47,5 +52,13 @@ public class Block {
 
     public void setHexRaw(String hexRaw) {
         this.hexRaw = hexRaw;
+    }
+
+    public String getPrevHash() {
+        return prevHash;
+    }
+
+    public void setPrevHash(String prevHash) {
+        this.prevHash = prevHash;
     }
 }
