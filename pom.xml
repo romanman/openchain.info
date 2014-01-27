@@ -111,6 +111,8 @@
 
                 <configuration>
 
+
+
                     <webAppConfig>
 
                     </webAppConfig>
@@ -119,7 +121,7 @@
                     <resourceBases>
                     </resourceBases>
 
-                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <scanIntervalSeconds>5</scanIntervalSeconds>
                     <!--<contextPath>/</contextPath>-->
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
