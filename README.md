@@ -1,5 +1,12 @@
 openchain.info
 ==============
 
+The Mission
+============
 
-text texet more text   sdfsdf
+Open source block explorer that allows 
+everybody who encode any data into a blockchain
+to describe it linked to a raw chain data.
+
+
+
