@@ -27,7 +27,7 @@ public class Block {
     String prevHash;
 
 
-    @Column(name = "HEX_RAW", columnDefinition="VARCHAR(65536)")
+    @Column(name = "HEX_RAW", columnDefinition="TEXT")
     String hexRaw;
 
     public String getHash() {

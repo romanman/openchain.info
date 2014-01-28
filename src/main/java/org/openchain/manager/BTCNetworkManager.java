@@ -99,7 +99,7 @@ public class BTCNetworkManager {
 
         peerGroup.addPeerDiscovery(new DnsDiscovery(netParams));
         peerGroup.startAndWait();
-        peerGroup.downloadBlockChain();
+//        peerGroup.downloadBlockChain();
 
     }
 

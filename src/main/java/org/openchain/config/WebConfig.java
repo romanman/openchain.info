@@ -41,6 +41,20 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
+
+        registry.addResourceHandler("/resources/css/**").
+                addResourceLocations("/resources/css/").setCachePeriod(0);
+
+        registry.addResourceHandler("/resources/scripts/page/**").
+                addResourceLocations("/resources/scripts/page/").setCachePeriod(0);
+        registry.addResourceHandler("/resources/scripts/components/**").
+                addResourceLocations("/resources/scripts/components/").setCachePeriod(3600);
+        registry.addResourceHandler("/resources/scripts/**").
+                addResourceLocations("/resources/scripts/").setCachePeriod(3600);
+
+        registry.addResourceHandler("/resources/img/**").
+                addResourceLocations("/resources/img/").setCachePeriod(3600);
+
     }
 
     @Override
